@@ -4,7 +4,7 @@ let ville = 'Conflans-Sainte-Honorine';
 
 let changerVille = document.querySelector('#changer');
 changerVille.addEventListener('click', () => {
-    ville = prompt('Qulle ville souhaitez-vous voir ?');
+    ville = prompt('Quelle ville souhaitez-vous voir ?');
     recevoirTemperature(ville)
 });
 
